@@ -1,0 +1,31 @@
+{
+  "name": "node-blog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "consola": "^2.15.3",
+    "cookie-parser": "~1.4.6",
+    "crypto": "^1.0.1",
+    "debug": "~4.3.4",
+    "ejs": "~3.1.8",
+    "express": "~4.18.1",
+    "express-session": "^1.17.3",
+    "http-errors": "~2.0.0",
+    "mongodb": "^4.9.1",
+    "mongoose": "^4.1.12",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "~1.10.0",
+    "node-fetch": "^3.2.10",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "is-finite": "^2.0.0",
+    "mkdirp": "^1.0.4"
+  }
+}
